@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W34WEP98NP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W34WEP98NP');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synapse Translate - 实时无界沟通：体验次世代AI语音翻译</title>
+    <base href="https://asd1536544.github.io/translate/">
+
+    <!-- SEO：改为项目站点的绝对 URL -->
+    <link rel="canonical" href="https://asd1536544.github.io/translate/">
+    <meta property="og:url" content="https://asd1536544.github.io/translate/">
+    <meta property="og:image" content="https://asd1536544.github.io/translate/img/meeting.jpg">
+    <meta name="twitter:image" content="https://asd1536544.github.io/translate/img/meeting.jpg">
+
+    <!-- 保留你原来的样式与脚本引用（现在会以 base 为基准解析） -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- SEO 基础 -->
+    <meta name="description" content="Synapse Translate 以 Direct STST 直接语音到语音技术实现低延迟高准确率的实时翻译，保留语调与情感，支持 95+ 语言，并提供易集成的 API/SDK。">
+    <meta name="keywords" content="AI语音翻译, 实时翻译, 语音到语音, Direct STST, 多语言, 低延迟, 高准确率, 情感保留, 语音识别, API, SDK, 开发者工具">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Synapse Translate">
+    <meta name="theme-color" content="#4A90E2">
+
+    <!-- Open Graph 社交分享 -->
+    <meta property="og:title" content="Synapse Translate｜实时无界沟通的 AI 语音翻译">
+    <meta property="og:description" content="Direct STST 技术带来低延迟、高准确率、情感与语调保留的实时语音翻译。支持 95+ 语言，并提供易集成的 API/SDK。">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:image" content="img/meeting.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Synapse Translate｜实时无界沟通的 AI 语音翻译">
+    <meta name="twitter:description" content="Direct STST 技术带来低延迟、高准确率、情感与语调保留的实时语音翻译。支持 95+ 语言，并提供易集成的 API/SDK。">
+    <meta name="twitter:image" content="img/meeting.jpg">
+
+    <!-- 结构化数据（JSON-LD） -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Synapse Translate",
+      "logo": "img/meeting.jpg"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Synapse Translate",
+      "inLanguage": "zh-CN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- 模块 1：导航栏 - Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Synapse Translate</div>
+            <ul class="nav-links">
+                <li><a href="#features">功能</a></li>
+                <li><a href="#technology">技术</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#pricing">价格</a></li>
+                <li><a href="#" class="btn-primary">免费试用</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 模块 2：首屏 - Hero Section -->
+    <header class="hero-section">
+        <div id="particles-js"></div>
+        <div class="container">
+            <h1>实时无界沟通：体验次世代AI语音翻译</h1>
+            <p>由尖端的'直接语音到语音 (Direct STST)'技术驱动，消除错误传播，提供前所未有的翻译精度与自然度。</p>
+            <div class="hero-cta">
+                <a href="#" class="btn btn-primary">立即免费试用</a>
+                <a href="#" class="btn btn-secondary">探索API文档</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 模块 3：核心功能展示 - Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <!-- 新增：功能模块标题与副标题 -->
+            <div class="features-header">
+                <h2 class="features-title">核心功能亮点</h2>
+                <p class="features-subtitle">精准、迅捷、自然——为真实沟通而生</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>即时语音翻译</h3>
+                    <p class="feature-data">< 300ms 毫秒级延迟</p>
+                    <hr class="feature-separator">
+                    <p class="feature-detail-text">实时将源语言语音转换为目标语言，延迟低至300毫秒，让跨语言沟通如同母语交流般流畅自然。</p>
+                    <a href="#" class="learn-more-link">了解更多 &gt;</a>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>多语言支持</h3>
+                    <p class="feature-data">覆盖全球 95+ 种主流语言</p>
+                    <hr class="feature-separator">
+                    <p class="feature-detail-text">支持全球95种主流语言和方言，覆盖99%的商业场景需求，满足不同地区和行业的翻译需求。</p>
+                    <a href="#" class="learn-more-link">了解更多 &gt;</a>
+                    </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>高精度识别</h3>
+                    <p class="feature-data">嘈杂环境下仍有 98% 准确率</p>
+                    <hr class="feature-separator">
+                    <p class="feature-detail-text">采用先进的神经网络模型，在嘈杂环境中也能达到98%的识别准确率，有效过滤背景噪音。</p>
+                    <a href="#" class="learn-more-link">了解更多 &gt;</a>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h3>自然语调保留</h3>
+                    <p class="feature-data">情感相似度高达 97%</p>
+                    <hr class="feature-separator">
+                    <p class="feature-detail-text">独特的声纹克隆技术保留说话者的语调和情感，翻译后的语音保持原有的个人特色和表达方式。</p>
+                    <a href="#" class="learn-more-link">了解更多 &gt;</a>
+                </div>
+            </div>
+
+        <section id="technology" class="features-tech-panel">
+            <h3 class="tech-title">核心技术揭秘</h3>
+            <p class="tech-subtitle">Direct STST 与传统级联方法的系统对比</p>
+
+            <div class="tech-comparison">
+                <div class="tech-card traditional">
+                    <h3>传统级联方法</h3>
+                    <div class="flow-chart">
+                        <p>语音 -> 文本 -> 翻译 -> 语音</p>
+                        <span class="error-icon">❌</span>
+                        <p class="risk-text">错误传播风险</p>
+                    </div>
+                </div>
+
+                <div class="tech-card direct-stst">
+                    <h3>我们的直接STST方法</h3>
+                    <div class="flow-chart">
+                        <p>语音 -> 语音</p>
+                        <span class="success-icon">✅</span>
+                        <p class="advantage-text">消除错误累积、延迟更低、保留语调</p>
+                    </div>
+                </div>
+
+                <div class="tech-card highlights">
+                    <h3>技术亮点</h3>
+                    <ul class="tech-bullets">
+                        <li><i class="fas fa-bolt"></i> 端到端优化，时延显著降低</li>
+                        <li><i class="fas fa-wave-square"></i> 保留韵律与情感，语音更自然</li>
+                        <li><i class="fas fa-shield-alt"></i> 抗噪音鲁棒 Strong，复杂场景稳定</li>
+                        <li><i class="fas fa-plug"></i> 易集成 API/SDK，工程落地友好</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tech-metrics">
+                <div class="metric">
+                    <div class="metric-icon"><i class="fas fa-stopwatch"></i></div>
+                    <div>
+                        <div class="metric-value">&lt; 300ms</div>
+                        <div class="metric-label">端到端延迟</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-icon"><i class="fas fa-heart"></i></div>
+                    <div>
+                        <div class="metric-value">97%</div>
+                        <div class="metric-label">情感与语调保留</div>
+                    </div>
+                </div>
+                <div class="metric">
+                    <div class="metric-icon"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <div class="metric-value">98%</div>
+                        <div class="metric-label">嘈杂环境识别率</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </section>
+
+    <!-- 模块 4：视频演示区 - Video Demonstration -->
+    <section class="video-demonstration">
+        <div class="parallax-shape-1"></div>
+        <div class="parallax-shape-2"></div>
+        <div class="container">
+            <h2>眼见为实：一分钟体验无缝对话</h2>
+            <p class="video-subtitle">观看 Synapse Translate 如何在一场紧张的跨国商务谈判中打破沟通僵局</p>
+            <div class="video-content-wrapper">
+                <div class="video-player-mockup">
+                    <div class="custom-play-button">▶</div>
+                    <!-- 新增：视频覆盖层，包含绩效徽章与浮动标注点 -->
+                    <div class="video-overlay">
+                        <div class="video-badges">
+                            <span class="badge"><i class="fas fa-bolt"></i> 低延迟 &lt; 300ms</span>
+                            <span class="badge"><i class="fas fa-heart"></i> 情感保留 97%</span>
+                            <span class="badge"><i class="fas fa-shield-alt"></i> 噪声鲁棒 98%</span>
+                        </div>
+                        <div class="annotation-dots">
+                            <button class="annotation-dot" style="left: 26%; top: 32%;" data-label="中英互译瞬时切换"></button>
+                            <button class="annotation-dot" style="left: 62%; top: 58%;" data-label="情感保留与语调连续性"></button>
+                        </div>
+                    </div>
+                    <div class="video-player-wrapper">
+                        <video controls autoplay loop muted playsinline poster="img/video-poster.jpg">
+                            <source src="video.webm" type="video/webm">
+                            <source src="video.mp4" type="video/mp4">
+                            您的浏览器不支持视频播放。
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 模块 6：应用场景 - Use Cases Section -->
+    <section class="use-cases-section">
+        <div class="container">
+            <h2>应用场景</h2>
+            <div class="tabs">
+                <div class="tab-header" role="tablist" aria-label="应用场景切换">
+                    <button class="tab-button active" data-tab="enterprise" role="tab" aria-controls="enterprise" aria-selected="true">企业会议</button>
+                    <button class="tab-button" data-tab="creator" role="tab" aria-controls="creator" aria-selected="false">内容创作</button>
+                    <button class="tab-button" data-tab="developer" role="tab" aria-controls="developer" aria-selected="false">开发者</button>
+                    <button class="tab-button" data-tab="traveler" role="tab" aria-controls="traveler" aria-selected="false">旅行者</button>
+                </div>
+                <div class="tab-content active" id="enterprise">
+                    <div class="background-media-placeholder enterprise-bg">
+                        <!-- 企业会议场景背景图片/视频占位符 -->
+                    </div>
+                    <div class="content-overlay">
+                        <h3>企业会议</h3>
+                        <p>Synapse Translate 为跨国企业提供无缝的会议体验，实时翻译多语言对话，消除语言障碍。与传统翻译工具相比，我们的直接STST技术减少了40%的延迟时间，提高了35%的翻译准确率，让您的国际团队协作更加高效。</p>
+                        <div class="proof-section">
+                            <a href="#" class="btn-solution">查看企业解决方案</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="creator">
+                    <div class="background-media-placeholder creator-bg">
+                        <!-- 内容创作场景背景图片/视频占位符 -->
+                    </div>
+                    <div class="content-overlay">
+                        <h3>内容创作</h3>
+                        <p>为视频创作者、播客主持人和教育工作者提供即时语音本地化服务。只需一键操作，即可将您的内容翻译成多种语言，同时保留您原始声音的语调和情感，扩大您的全球受众群体，提升内容变现能力。</p>
+                        <div class="proof-section">
+                            <div class="youtube-video-placeholder">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="developer">
+                    <div class="background-media-placeholder developer-bg">
+                        <!-- 开发者场景背景图片/视频占位符 -->
+                    </div>
+                    <div class="content-overlay">
+                        <h3>开发者</h3>
+                        <p>通过我们的API，将先进的语音翻译功能无缝集成到您的应用程序中。我们提供全面的SDK和详细文档，支持超过50种语言，每月前100小时免费使用，之后按需付费，帮助您的应用打破语言壁垒，触达全球市场。</p>
+                        <div class="proof-section">
+                            <pre class="code-example">
+                            </pre>
+                            <a href="#" class="btn-api">立即探索API</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="traveler">
+                    <div class="background-media-placeholder traveler-bg">
+                        <!-- 旅行者场景背景图片/视频占位符 -->
+                    </div>
+                    <div class="content-overlay">
+                        <h3>旅行者</h3>
+                        <p>出国旅行不再需要担心语言不通。Synapse Translate 支持离线模式，即使在没有网络的情况下也能进行基本翻译。其紧凑的界面设计和直观的操作方式，让您在旅途中轻松与当地人交流，获得更真实的旅行体验。</p>
+                        <div class="proof-section">
+                            <div class="app-screenshots">
+                                <!-- 移动App界面截图占位符 -->
+                                <p>（此处放置移动App界面截图）</p>
+                            </div>
+                            <div class="download-links">
+                                <a href="#" class="btn-appstore">App Store</a>
+                                <a href="#" class="btn-googleplay">Google Play</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 模块 7：公司创建历史 - Company History Section -->
+    <section class="company-history-section">
+        <div id="history-particles-js" class="history-particles"></div>
+        <div class="container">
+            <h2>公司创建历史</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>2018 - 创立与愿景</h3>
+                        <p>Synapse Translate 在硅谷成立，由一群对语言技术充满热情的工程师和语言学家共同创立。我们的愿景是打破全球沟通障碍，让每个人都能无缝交流。</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>2019 - 核心技术突破</h3>
+                        <p>成功研发出基于深度学习的直接语音到语音翻译（Direct STST）技术，显著降低了翻译延迟，并能更好地保留说话者的语调和情感。</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>2020 - 产品发布与市场验证</h3>
+                        <p>Synapse Translate 首个商业版本发布，迅速获得市场认可。与多家跨国企业达成合作，帮助他们提升国际会议效率。</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>2021 - 多语言扩展与API开放</h3>
+                        <p>支持语言数量扩展至40+种，并开放了开发者API，吸引了大量开发者将Synapse Translate集成到各类应用中。</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>2022 - 离线翻译与AI优化</h3>
+                        <p>推出离线翻译功能，进一步提升用户体验。通过持续的AI模型优化，翻译准确率和自然度达到行业领先水平。</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>2023 - 全球化战略与生态建设</h3>
+                        <p>启动全球化战略，在欧洲和亚洲设立分支机构。积极构建合作伙伴生态，推动语音AI技术在更多领域的应用。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 模块 8：用户评论 - Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>用户故事 传递更多声音</h2>
+            <div class="testimonials-columns">
+                <div class="testimonial-column">
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/1.png" alt="用户头像 - 张明" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"Synapse Translate彻底改变了我们的国际会议体验。实时翻译准确且自然，让我们的跨国团队沟通效率提升了50%以上。"</p>
+                            <p class="user-name">张明</p>
+                            <p class="user-title">某跨国科技公司 CTO</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/2.png" alt="用户头像 - 李华" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"作为一名教育内容创作者，Synapse Translate帮助我将课程内容翻译成8种语言，同时保留了我的声音特点，让我的全球学生数量增长了3倍。"</p>
+                            <p class="user-name">李华</p>
+                            <p class="user-title">知名在线教育平台创始人</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/3.png" alt="用户头像 - 王芳" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"我们将Synapse Translate API集成到我们的旅游应用中，用户满意度提升了40%，国际用户增长率达到了之前的2.5倍。"</p>
+                            <p class="user-name">王芳</p>
+                            <p class="user-title">旅游应用开发公司 产品经理</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/1.png" alt="用户头像 - 张明" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"Synapse Translate彻底改变了我们的国际会议体验。实时翻译准确且自然，让我们的跨国团队沟通效率提升了50%以上。"</p>
+                            <p class="user-name">张明</p>
+                            <p class="user-title">某跨国科技公司 CTO</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/2.png" alt="用户头像 - 李华" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"一名教育内容创作者，Synapse Translate帮助我将课程内容翻译成8种语言，同时保留了我的声音特点，让我的全球学生数量增长了3倍。"</p>
+                            <p class="user-name">李华</p>
+                            <p class="user-title">知名在线教育平台创始人</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/3.png" alt="用户头像 - 王芳" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"我们将Synapse Translate API集成到我们的旅游应用中，用户满意度提升了40%，国际用户增长率达到了之前的2.5倍。"</p>
+                            <p class="user-name">王芳</p>
+                            <p class="user-title">旅游应用开发公司 产品经理</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-column">
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/2.png" alt="用户头像 - 李华" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"一名教育内容创作者，Synapse Translate帮助我将课程内容翻译成8种语言，同时保留了我的声音特点，让我的全球学生数量增长了3倍。"</p>
+                            <p class="user-name">李华</p>
+                            <p class="user-title">知名在线教育平台创始人</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/3.png" alt="用户头像 - 王芳" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"我们将Synapse Translate API集成到我们的旅游应用中，用户满意度提升了40%，国际用户增长率达到了之前的2.5倍。"</p>
+                            <p class="user-name">王芳</p>
+                            <p class="user-title">旅游应用开发公司 产品经理</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/1.png" alt="用户头像 - 张明" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"Synapse Translate彻底改变了我们的国际会议体验。实时翻译准确且自然，让我们的跨国团队沟通效率提升了50%以上。"</p>
+                            <p class="user-name">张明</p>
+                            <p class="user-title">某跨国科技公司 CTO</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/2.png" alt="用户头像 - 李华" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"一名教育内容创作者，Synapse Translate帮助我将课程内容翻译成8种语言，同时保留了我的声音特点，让我的全球学生数量增长了3倍。"</p>
+                            <p class="user-name">李华</p>
+                            <p class="user-title">知名在线教育平台创始人</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/3.png" alt="用户头像 - 王芳" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"我们将Synapse Translate API集成到我们的旅游应用中，用户满意度提升了40%，国际用户增长率达到了之前的2.5倍。"</p>
+                            <p class="user-name">王芳</p>
+                            <p class="user-title">旅游应用开发公司 产品经理</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-column">
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/3.png" alt="用户头像 - 王芳" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"我们将Synapse Translate API集成到我们的旅游应用中，用户满意度提升了40%，国际用户增长率达到了之前的2.5倍。"</p>
+                            <p class="user-name">王芳</p>
+                            <p class="user-title">旅游应用开发公司 产品经理</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/1.png" alt="用户头像 - 张明" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"Synapse Translate彻底改变了我们的国际会议体验。实时翻译准确且自然，让我们的跨国团队沟通效率提升了50%以上。"</p>
+                            <p class="user-name">张明</p>
+                            <p class="user-title">某跨国科技公司 CTO</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/2.png" alt="用户头像 - 李华" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"一名教育内容创作者，Synapse Translate帮助我将课程内容翻译成8种语言，同时保留了我的声音特点，让我的全球学生数量增长了3倍。"</p>
+                            <p class="user-name">李华</p>
+                            <p class="user-title">知名在线教育平台创始人</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/3.png" alt="用户头像 - 王芳" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"我们将Synapse Translate API集成到我们的旅游应用中，用户满意度提升了40%，国际用户增长率达到了之前的2.5倍。"</p>
+                            <p class="user-name">王芳</p>
+                            <p class="user-title">旅游应用开发公司 产品经理</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/1.png" alt="用户头像 - 张明" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"Synapse Translate彻底改变了我们的国际会议体验。实时翻译准确且自然，让我们的跨国团队沟通效率提升了50%以上。"</p>
+                            <p class="user-name">张明</p>
+                            <p class="user-title">某跨国科技公司 CTO</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="user-avatar">
+                            <img src="img/2.png" alt="用户头像 - 李华" loading="lazy" width="60" height="60">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="quote">"一名教育内容创作者，Synapse Translate帮助我将课程内容翻译成8种语言，同时保留了我的声音特点，让我的全球学生数量增长了3倍。"</p>
+                            <p class="user-name">李华</p>
+                            <p class="user-title">知名在线教育平台创始人</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 模块 8：页脚 - Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Synapse Translate</h3>
+                    <p>实时无界沟通：体验次世代AI语音翻译</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>产品</h4>
+                        <ul>
+                            <li><a href="#features">核心功能</a></li>
+                            <li><a href="#technology">技术优势</a></li>
+                            <li><a href="#">价格方案</a></li>
+                            <li><a href="#">企业定制</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>开发者</h4>
+                        <ul>
+                            <li><a href="#">API文档</a></li>
+                            <li><a href="#">SDK下载</a></li>
+                            <li><a href="#">集成指南</a></li>
+                            <li><a href="#">示例代码</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>公司</h4>
+                        <ul>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">加入我们</a></li>
+                            <li><a href="#">媒体资源</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Synapse Translate. 保留所有权利。</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon">微博</a>
+                    <a href="#" class="social-icon">微信</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
